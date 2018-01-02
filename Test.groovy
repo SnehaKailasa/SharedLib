@@ -1,4 +1,4 @@
-def call(def temp) {
+def call() {
 println "Testing"
 println $temp
 }
