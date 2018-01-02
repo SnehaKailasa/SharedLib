@@ -1,6 +1,6 @@
 class A {
-	def lock_resource_name = "jenkins-file"
-         def Sonar_project_name = "jenkins-file"
+	def lock_resource_name 
+         def Sonar_project_name 
 }
 def call() {
 JobName = "${JOB_NAME}"
